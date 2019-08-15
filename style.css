@@ -1,0 +1,151 @@
+td {
+    border: 8px solid whitesmoke;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 200px;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame {
+    display: none;
+    width: 200px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #181816;
+    color: white;
+    font-size: 2em;
+    animation: blinker 1s linear infinite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+
+.tic {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+.desc {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New';
+  }
+
+  .player {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+  }
+
+
+html { 
+    background: url(tictactoe.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+  }
+body{
+  min-height: 100%;     
+}
+
+  .btn {
+    background-color: whitesmoke;
+    opacity:0.6;
+    border-radius: 8px;
+    border: none;
+    color: #02170B;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } 
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  text-align: justify;
+  color: white;
+  width: 30%;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.backbtn {
+  border-radius: 100%;
+  background-color: whitesmoke;
+  opacity:0.6;
+  border: none;
+  color: #02170B;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+footer {
+        margin-top: -50px;
+        text-align: center;
+        bottom: 30px;
+        height: 30px;
+        position: absolute;
+        left: 43%;
+   }
+  
+   
+
+  
+    
+
+ 

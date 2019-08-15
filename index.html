@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic-Tac-Toe</title>
+
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body> 
+        <div>
+            <div class="tic">
+                    <h1>Tic Tac Toe</h1>
+            </div>
+            <div class="desc">
+                <p>Play Tic Tac Toe with AI, but keep in mind that, this AI is unbeatable. <br> You can try to tie the game, but never win! GOOD LUCK!!!</p>
+            </div>
+            <!-- <div class="player">
+                <h2>AI: "X" &emsp; Player: "O"</h2>
+            </div> -->
+        </div>
+                        
+        <div class="game">
+            <table>
+                <tr>
+                    <td class="cell" id="0"></td>
+                    <td class="cell" id="1"></td>
+                    <td class="cell" id="2"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="3"></td>
+                    <td class="cell" id="4"></td>
+                    <td class="cell" id="5"></td>
+                </tr>
+                <tr>
+                    <td class="cell" id="6"></td>
+                    <td class="cell" id="7"></td>
+                    <td class="cell" id="8"></td>
+                </tr>
+            </table>
+        </div>
+  
+
+        <div class="endgame">
+            <div class="text"></div>
+            <button class="btn" onclick="startGame()">Replay</button>
+        </div>
+        
+        <footer>
+             <button class="btn" onclick="window.location.href='info.html'">Rules</button> 
+             <button class="btn" onclick="startGame()">Reset</button>
+        </footer> 
+        <!--Scripts-->
+        <script src="./script.js"></script>
+    </body>
+    
+</html>
